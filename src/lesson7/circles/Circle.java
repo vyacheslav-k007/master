@@ -1,4 +1,4 @@
-package lesson7.Circles;
+package lesson7.circles;
 
 public class Circle {
     double radius;
@@ -8,8 +8,8 @@ public class Circle {
         this.radius = radius;
     }
 
-    public void  diameterCalculation(){
+    public double diameterCalculation(){
         double diameter = radius * 2;
-        System.out.println("Diameter  of the right circle = " + diameter + " centimeters");
+        return diameter;
     }
 }
