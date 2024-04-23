@@ -7,7 +7,6 @@ public class Parallelogram extends Quadrangle{
     }
 
     public double perimeterOfAQuadrangle(){
-        double perimeter = getTheFirstSide() * 2 + getTheThirdSide() * 2;
-        return perimeter;
+        return getTheFirstSide() * 2 + getTheThirdSide() * 2;
     }
 }

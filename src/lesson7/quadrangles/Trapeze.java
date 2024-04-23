@@ -6,7 +6,7 @@ public class Trapeze extends Quadrangle{
     }
 
     public double perimeterOfAQuadrangle(){
-        double perimeter = getTheFirstSide() + getTheSecondSide() + getTheThirdSide() + getTheFourthSide();
-        return perimeter;
+        return getTheFirstSide() + getTheSecondSide() + getTheThirdSide() + getTheFourthSide();
+
     }
 }

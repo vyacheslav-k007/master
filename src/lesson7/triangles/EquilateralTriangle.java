@@ -6,9 +6,4 @@ public class EquilateralTriangle extends Triangle{
         super(firstSide, secondSide, thirdSide);
     }
 
-    public double perimeterOfATriangle(){
-        double perimeter = getFirstSide() + getSecondSide() + getThirdSide();
-        return perimeter;
-    }
-
 }

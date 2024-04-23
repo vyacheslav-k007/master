@@ -1,10 +1,10 @@
 package lesson7.quadrangles;
 
 public class Quadrangle {
-    private double theFirstSide;
-    private double theSecondSide;
-    private double theThirdSide;
-    private double theFourthSide;
+    private final double theFirstSide;
+    private final double theSecondSide;
+    private final double theThirdSide;
+    private final double theFourthSide;
 
     public double getTheFirstSide() {
         return theFirstSide;
@@ -29,8 +29,7 @@ public class Quadrangle {
         this.theFourthSide = theFourthSide;
     }
     public double perimeterOfAQuadrangle(){
-        double perimeter = theFirstSide * 4;
-        return perimeter;
+        return theFirstSide * 4;
     }
 
 }

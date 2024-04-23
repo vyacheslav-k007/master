@@ -1,7 +1,7 @@
 package lesson7.circles;
 
 public class Circle {
-    double radius;
+    private final double radius;
 
 
     public Circle(double radius){
@@ -9,7 +9,6 @@ public class Circle {
     }
 
     public double diameterCalculation(){
-        double diameter = radius * 2;
-        return diameter;
+        return radius * 2;
     }
 }

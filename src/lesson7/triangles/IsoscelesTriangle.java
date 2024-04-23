@@ -8,7 +8,6 @@ public class IsoscelesTriangle extends Triangle{
     }
 
     public double perimeterOfATriangle(){
-        double perimeter = 2 * getFirstSide() + getThirdSide();
-        return perimeter;
+        return 2 * getFirstSide() + getThirdSide();
     }
 }

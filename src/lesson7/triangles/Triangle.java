@@ -2,9 +2,9 @@ package lesson7.triangles;
 
 public class Triangle {
 
-    private double firstSide;
-    private double secondSide;
-    private double thirdSide;
+    private final double firstSide;
+    private final double secondSide;
+    private final double thirdSide;
 
 
     public double getFirstSide() {
@@ -19,18 +19,6 @@ public class Triangle {
         return thirdSide;
     }
 
-    public void setFirstSide(double firstSide) {
-        this.firstSide = firstSide;
-    }
-
-    public void setSecondSide(double secondSide) {
-        this.secondSide = secondSide;
-    }
-
-    public void setThirdSide(double thirdSide) {
-        this.thirdSide = thirdSide;
-    }
-
     public Triangle (double firstSide, double secondSide, double thirdSide) {
         this.firstSide = firstSide;
         this.secondSide = secondSide;
@@ -38,8 +26,7 @@ public class Triangle {
     }
 
     public double perimeterOfATriangle(){
-        double perimeter = getFirstSide() + getSecondSide() + getThirdSide();
-        return perimeter;
+        return getFirstSide() + getSecondSide() + getThirdSide();
     }
 
 
